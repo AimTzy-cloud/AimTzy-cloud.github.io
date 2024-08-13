@@ -10,6 +10,7 @@
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -244,7 +245,7 @@ span {
     }
 }
 
-@media (max-width: 895px) {
+@media (max-width: 768px) {
     .home {
         flex-direction: column;
         margin: 5rem 4rem;
@@ -281,7 +282,7 @@ span {
 }
 
 .service-box {
-    background-color: rgba(255, 217, 0, 0.708);
+    background-color: rgba(255, 217, 0, 0.865);
     height: 300px;
     border-radius: 3rem;
     cursor: pointer;
@@ -327,7 +328,7 @@ span {
     }
 }
 
-@media (max-width:895px) {
+@media (max-width:768px) {
     .services h2 {
         margin-bottom: 3rem;
     }
@@ -336,6 +337,9 @@ span {
     }
     .service-info p {
         font-size: 9px;
+    }
+    .service-box {
+        margin-left: -30px;
     }
 }
 
@@ -393,18 +397,22 @@ span {
     color: white;
 }
 
-@media(max-width:895px) {
+@media(max-width:768px) {
     .skills .container {
-        width: auto;
+        display: flex;
+        justify-content: center; /* Mengatur elemen-elemen di tengah secara horizontal */
+        align-items: center;
     }
     .skills .container .bar {
-        margin-bottom: 10px;
-        padding: 5px;
+        margin: 0 -2px; /* Atur jarak antara gambar-gambar */
     }
     .skills .container .bar .info img {
-        width: 100px; /* Atur sesuai kebutuhan */
-        height: 100px; /* Atur sesuai kebutuhan */
+        width: 75px; /* Atur sesuai kebutuhan */
+        height: 75px; /* Atur sesuai kebutuhan */
         object-fit: cover; /* Pastikan gambar menyesuaikan ukuran kotak tanpa distorsi */
+    }
+    .skills .container .bar .info span {
+        font-size: 10px;
     }
 }
 
