@@ -333,6 +333,9 @@ span {
     .services-container {
         grid-template-columns: repeat(1,1fr);
     }
+    .service-info p {
+        font-size: 9px;
+    }
 }
 
 /* Skills Section */
@@ -387,6 +390,21 @@ span {
     font-weight: 500;
     margin-left: 0.5rem;
     color: white;
+}
+
+@media(max-width:991px) {
+    .skills .container {
+        width: auto;
+    }
+    .skills .container .bar {
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    .skills .container .bar .info img {
+        width: 100px; /* Atur sesuai kebutuhan */
+        height: 100px; /* Atur sesuai kebutuhan */
+        object-fit: cover; /* Pastikan gambar menyesuaikan ukuran kotak tanpa distorsi */
+    }
 }
 
 /* Education Section */
