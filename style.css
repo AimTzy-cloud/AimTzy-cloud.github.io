@@ -326,7 +326,7 @@ span {
     }
 }
 
-@media (max-width:895px) {
+@media (max-width:995px) {
     .services h2 {
         margin-bottom: 3rem;
     }
@@ -392,7 +392,7 @@ span {
     color: white;
 }
 
-@media(max-width:991px) {
+@media(max-width:995px) {
     .skills .container {
         width: auto;
     }
