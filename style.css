@@ -10,7 +10,6 @@
 
 html {
     font-size: 62.5%;
-    overflow-x: hidden;
 }
 
 body {
@@ -267,7 +266,6 @@ span {
 
 .services {
     background: black;
-    overflow-x: hidden;
 }
 .heading {
     font-size: 35px;
@@ -287,6 +285,7 @@ span {
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.3s ease;
+    overflow: hidden;
 }
 
 .service-box:hover {
@@ -358,6 +357,7 @@ span {
     gap: 20px;              /* Jarak antara kotak-kotak */
     flex-wrap: wrap;        /* Membuat kotak agar bisa membungkus jika layar tidak cukup besar */
     padding: 20px;          /* Jarak dari tepi halaman */
+    overflow: hidden;
 }
 
 .skills .container .row {
