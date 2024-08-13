@@ -266,6 +266,7 @@ span {
 
 .services {
     background: black;
+    overflow-x: hidden;
 }
 .heading {
     font-size: 35px;
@@ -323,7 +324,6 @@ span {
     }
     .services {
         padding-bottom: 7rem;
-        position: relative;
     }
 }
 
