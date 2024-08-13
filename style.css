@@ -244,7 +244,7 @@ span {
     }
 }
 
-@media (max-width: 995px) {
+@media (max-width: 895px) {
     .home {
         flex-direction: column;
         margin: 5rem 4rem;
@@ -323,10 +323,11 @@ span {
     }
     .services {
         padding-bottom: 7rem;
+        position: relative;
     }
 }
 
-@media (max-width:995px) {
+@media (max-width:895px) {
     .services h2 {
         margin-bottom: 3rem;
     }
@@ -392,7 +393,7 @@ span {
     color: white;
 }
 
-@media(max-width:995px) {
+@media(max-width:895px) {
     .skills .container {
         width: auto;
     }
