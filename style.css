@@ -10,6 +10,7 @@
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -248,6 +249,7 @@ span {
     .home {
         flex-direction: column;
         margin: 5rem 4rem;
+        overflow-y: hidden;
     }
 
     .home .home-content h3 {
