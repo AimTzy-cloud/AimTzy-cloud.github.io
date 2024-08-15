@@ -364,19 +364,6 @@ span {
 .skills {
     background: black;
 }
-
-.skills .container {
-    background-color: rgba(248, 248, 248, 0.192);
-    color: white;
-    display: flex;
-    justify-content: center; /* Memusatkan secara horizontal */
-    align-items: center;    /* Memusatkan secara vertikal jika perlu */
-    gap: 20px;              /* Jarak antara kotak-kotak */
-    flex-wrap: wrap;        /* Membuat kotak agar bisa membungkus jika layar tidak cukup besar */
-    padding: 20px;          /* Jarak dari tepi halaman */
-    overflow: hidden;
-}
-
 .skills .container .row {
     display: grid;
     grid-template-columns: repeat(6,1fr);
@@ -388,7 +375,7 @@ span {
     margin-bottom: 15px;
     padding: 25px;
     border-radius: 1rem;
-    background: black;
+    background: rgba(33, 113, 199, 0.559);
     box-shadow: 0 5px gold;
     transition: 0.3s ease;
     cursor: pointer;
@@ -423,11 +410,13 @@ span {
     }
     .skills .container .bar {
         margin: 0 -5px; /* Atur jarak antara gambar-gambar */
+        width: 100px;
     }
     .skills .container .bar .info img {
         width: 75px; /* Atur sesuai kebutuhan */
         height: 75px; /* Atur sesuai kebutuhan */
         object-fit: cover; /* Pastikan gambar menyesuaikan ukuran kotak tanpa distorsi */
+        border-radius: 50%;
     }
     .skills .container .bar .info span {
         font-size: 10px;
