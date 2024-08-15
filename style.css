@@ -334,21 +334,29 @@ span {
         margin-bottom: 3rem;
     }
     .services-container {
-        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: column; /* Susun elemen secara vertikal */
+        align-items: center;    /* Pusatkan elemen secara horizontal */
+        gap: 3px;              /* Jarak antar kotak */
     }
     .service-box {
-        padding: 10px;
-        border-radius: 10px;
-        max-width: 200px;
-        min-height: 200px;
-        margin: 5px; /* Agar kotak berada di tengah */
-}
-
+        text-align: center;
+        padding: 20px;
+        font-size: 16px;
+        line-height: 1.6;
+        width: 300px;   /* Atur lebar box */
+        height: auto;   /* Sesuaikan tinggi dengan konten */
+        margin: 5px auto; /* Beri margin di atas/bawah, dan atur box ke tengah */
+    }
+    .service-info h4 {
+        font-size: 15px;
+        margin-top: -30px;
+    }
     .service-info p {
-        font-family: 'Arial', sans-serif;
-        font-size: 8px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 9px;
         text-align: left;
-}
+    }
 }
 
 /* Skills Section */
@@ -378,7 +386,7 @@ span {
 
 .skills .container .bar {
     margin-bottom: 15px;
-    padding: 10px;
+    padding: 25px;
     border-radius: 1rem;
     background: black;
     box-shadow: 0 5px gold;
@@ -411,9 +419,10 @@ span {
         display: flex;
         justify-content: center; /* Mengatur elemen-elemen di tengah secara horizontal */
         align-items: center;
+        margin-right: -30px;
     }
     .skills .container .bar {
-        margin: 0 -2px; /* Atur jarak antara gambar-gambar */
+        margin: 0 -5px; /* Atur jarak antara gambar-gambar */
     }
     .skills .container .bar .info img {
         width: 75px; /* Atur sesuai kebutuhan */
