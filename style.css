@@ -62,7 +62,7 @@ nav a:hover, nav a.active {
     border-bottom: 2px solid gold;
 }
 
-@media(max-width: 995px){
+@media(max-width: 768px){
     nav {
         position: absolute;
         display: none;
@@ -105,6 +105,11 @@ section {
     align-items: center;
     gap: 8rem;
     background-color: #000000;
+}
+
+#menu {
+    display: none;
+    color: white;
 }
 
 .home .home-content h1 {
@@ -250,6 +255,9 @@ span {
         flex-direction: column;
         margin: 5rem 4rem;
         overflow-y: hidden;
+    }
+    #menu {
+        display: inline-block;
     }
 
     .home .home-content h3 {
