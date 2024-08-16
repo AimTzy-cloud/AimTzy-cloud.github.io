@@ -321,11 +321,12 @@ span {
     margin-bottom: 1rem;
 }
 
-.service-info p {
+.service-info  a {
     font-size: 1.6rem;
     font-weight: 400;
     max-height: 100px;
     margin: auto;
+    color: white;
 }
 
 @media (max-width:991px) {
@@ -407,6 +408,10 @@ span {
     font-weight: 500;
     margin-left: 0.5rem;
     color: white;
+}
+
+.skills .container .bar .info img {
+    border-radius: 15%;
 }
 
 @media(max-width:768px) {
