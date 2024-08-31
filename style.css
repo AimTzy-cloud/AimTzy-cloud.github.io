@@ -383,15 +383,15 @@ span {
 .skills .container .bar {
     margin-bottom: 15px;
     padding: 25px;
-    border-radius: 1rem;
+    border-radius: .8rem;
     background: rgba(33, 113, 199, 0.559);
-    box-shadow: 0 5px gold;
+    box-shadow: 0 3px gold;
     transition: 0.3s ease;
     cursor: pointer;
 }
 
 .skills .container .bar:hover {
-    box-shadow: 0 4px 10px white;
+    box-shadow: 0 5px 12px white;
     transform: scale(1.0);
 }
 
@@ -426,10 +426,11 @@ span {
         width: 100px;
     }
     .skills .container .bar .info img {
-        width: 75px; /* Atur sesuai kebutuhan */
-        height: 75px; /* Atur sesuai kebutuhan */
+        width: 50px; /* Atur sesuai kebutuhan */
+        height: 50px; /* Atur sesuai kebutuhan */
         object-fit: cover; /* Pastikan gambar menyesuaikan ukuran kotak tanpa distorsi */
-        border-radius: 50%;
+        border-radius: 100%;
+        text-align: center;
     }
     .skills .container .bar .info span {
         font-size: 10px;
